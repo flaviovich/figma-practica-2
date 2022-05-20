@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    background-color: #9ECEFA;
+    width: 100%;
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #87119A;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.menu {
+    margin-right: 49px;
+}
+
+.menu a {
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    border-bottom: 2px solid #87119A;
+    padding-bottom: 3px;
+    color: #87119A;
+}
+
+.cuerpo {
+    padding: 36px;
+}
+
+.nosotros h2 {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    border-left: 5px solid;
+    padding: 10px;
+}
+
+.nosotros p {    
+    margin-bottom: 30px;
+}
+
+.imagenes-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 410px;
+    height: 251px;
+}
+
+.servicios h2 {
+    margin-top: 66px;
+    margin-bottom: 16px;
+    border-left: 5px solid;
+    padding: 10px;
+}
+
+.servicios p {
+    margin-bottom: 30px;
+}
+
+.imagenes-2 {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.portafolio h2 {
+    margin-top: 66px;
+    margin-bottom: 16px;
+    border-left: 5px solid;
+    padding: 10px;
+}
+
+.portafolio p {
+    margin-bottom: 30px;
+}
+
+.imagenes-3 {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.imagenes-3 img {
+    width: 282px;
+    height: 251px;
+}
+
+.contacto {
+    margin-bottom: 150px;
+}
+
+.contacto h2 {
+    margin-top: 66px;
+    margin-bottom: 16px;
+    border-left: 5px solid;
+    padding: 10px;
+}
+
+.contacto p {
+    margin-bottom: 30px;
+}
+
+.contacto .ubicacion {
+    display: flex;
+}
+
+.contacto img {
+    width: 892px;
+    height: 545px;
+}
+
+.contacto-datos {
+    margin-left: 20px;
+}
+
+.contacto-datos div {
+    margin-top: 20px;
+}
+
+.pie {
+    background-color: #9ECEFA;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.pie span:first-child {
+    margin-left: 38px;
+}
+
+.pie span:last-child {
+    margin-right: 35px;
+}
